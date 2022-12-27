@@ -31,9 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'family'
-    'private'
-    'public'
+    # 'booksapp.apps.BooksAppConfig',
+    # 'private.PrivateConfig',
+    # 'family.apps.FamilyConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
