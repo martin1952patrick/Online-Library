@@ -31,15 +31,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'booksapp.apps.BooksAppConfig',
-    # 'private.PrivateConfig',
-    # 'family.apps.FamilyConfig',
+    'BooksApp.apps.BooksappConfig',
+    'Private.apps.PrivateConfig',
+    'user.apps.UserConfig',
+    'Family.apps.FamilyConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
